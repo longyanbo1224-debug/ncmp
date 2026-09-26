@@ -66,8 +66,8 @@ on:
   #   - 只用 GitHub 原生定时：保留本 schedule 块
   #   - 只用桌面定时触发云端：注释掉整个 schedule 块
   # 不需要定时则注释掉整个 schedule 块
-  # schedule:
-    # - cron: '0 8 * * *'
+  schedule:
+    - cron: '0 1 * * *'
 
 # 同一仓库并发限制：避免多个 run 同时跑触发风控
 concurrency:
