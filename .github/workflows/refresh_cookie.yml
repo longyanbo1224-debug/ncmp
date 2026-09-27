@@ -67,7 +67,7 @@ on:
   #   - 只用桌面定时触发云端：注释掉整个 schedule 块
   # 不需要定时则注释掉整个 schedule 块
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '26 16 * * *'
 
 # 同一仓库并发限制：避免多个 run 同时跑触发风控
 concurrency:
